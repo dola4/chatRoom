@@ -1,0 +1,71 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F2E3E;
+    color: white;
+    /* Ajoutez une police différente */
+    font-family: "Arial", sans-serif;
+    /* Ajoutez un arrière-plan plus sophistiqué */
+    background-image: linear-gradient(to bottom right, #2F2E3E, #555369);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+    /* Ajoutez une marge autour des boutons */
+    margin: 20px;
+}
+
+/* Ajoutez une police différente pour les textes */
+h2, label, button {
+    font-family: "Arial", sans-serif;
+}
+
+.join {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.create {
+    width: 100%;
+}
+
+.message-box {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #3B3A4D;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: stretch;
+    /* Modifiez la couleur du texte pour une meilleure lisibilité */
+    color: #FFFFFF;
+}
+
+.messages {
+    overflow-y: scroll;
+    flex: 1;
+    width: 100%;
+}
+
+.inputs {
+    padding: 10px;
+    display: flex;
+    background-color: #2F2E3E;
+    /* Ajoutez une marge intérieure (padding) */
+    padding: 10px;
+}
+
+.muted {
+    font-size: 12px;
+    color: darkgray;
+}
